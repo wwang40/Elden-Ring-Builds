@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background-color: #1c1c1c;
+  color: #d4c9a5;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: #856730;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #654e24;
+}
+
+input, select {
+  background-color: #2d2d2d;
+  color: #d4c9a5;
+  border: 1px solid #856730;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: 'Cinzel', serif;
+}
+
+h1, h2, h3 {
+  color: #d4c9a5;
+}
+
+.attribute-section {
+  margin: 20px 0;
+  border: 1px solid #856730;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2d2d2d;
+}
+
+.build-card {
+  background-color: #2d2d2d;
+  border: 1px solid #856730;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  background-color: #8b3a3a;
+}
+
+.btn-delete:hover {
+  background-color: #6b2a2a;
+}
+
+.navbar {
+  background-color: #2d2d2d;
+  padding: 15px 0;
+  border-bottom: 2px solid #856730;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d4c9a5;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: #d4c9a5;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  color: #856730;
+}
+
+.attribute-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.attribute-controls {
+  display: flex;
+  align-items: center;
+}
+
+.attribute-controls input {
+  width: 60px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.attribute-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  background-color: #2d2d2d;
+  color: #d4c9a5;
+  border: 1px solid #856730;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+}
+
+.build-focus {
+  background-color: #3d3726;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.recommended-equipment {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #2a2620;
+  border-radius: 4px;
+  border-left: 4px solid #856730;
+}
+
+.build-actions {
+  margin-top: 30px;
+}
